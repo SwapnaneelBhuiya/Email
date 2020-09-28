@@ -6,7 +6,7 @@ public class EmailAddress {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter email address");
 		String email=sc.nextLine();
-		if(email.matches("^(abc)[@]{1}(bridgelabz)"))
+		if(email.matches("^(abc)[@]{1}(bridgelabz)[.]{1}(co)"))
 			System.out.println("valid email");
 	}
 }
